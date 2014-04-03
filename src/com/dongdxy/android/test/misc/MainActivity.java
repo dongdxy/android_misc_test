@@ -18,6 +18,7 @@ public class MainActivity extends ListActivity {
 	private static List<Class<?>> entries = new ArrayList<Class<?>>();
 	static {
 		entries.add(CpuInfoActivity.class);
+		entries.add(JsonFormatActivity.class);
 	}
 
 	@Override

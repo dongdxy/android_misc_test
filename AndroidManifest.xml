@@ -26,6 +26,10 @@
             android:name="com.dongdxy.android.test.misc.CpuInfoActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.dongdxy.android.test.misc.JsonFormatActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
