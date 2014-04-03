@@ -19,6 +19,7 @@ public class MainActivity extends ListActivity {
 	static {
 		entries.add(CpuInfoActivity.class);
 		entries.add(JsonFormatActivity.class);
+		entries.add(MoveTaskToBackActivity.class);
 	}
 
 	@Override
