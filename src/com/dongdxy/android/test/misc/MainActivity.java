@@ -20,6 +20,7 @@ public class MainActivity extends ListActivity {
 		entries.add(CpuInfoActivity.class);
 		entries.add(JsonFormatActivity.class);
 		entries.add(MoveTaskToBackActivity.class);
+		entries.add(WebviewJsSecurityActivity.class);
 	}
 
 	@Override

@@ -1,0 +1,51 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<!--[if lte IE 6]></base><![endif]-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Andriod WebView 挂马漏洞检测工具</title>
+
+<style type="text/css">
+body{margin:10px;padding:10px;font-size:12px;color:#333;font-family:"微软雅黑",Tahoma,"宋体"; }
+</style>
+<script type="text/javascript">
+
+function check()
+{
+
+	var res = 0;
+
+	for (var obj in window) 
+	{
+		try {
+			if ("getClass" in window[obj]) {
+				try{
+					var class = window[obj].getClass();
+					document.getElementById("res_show").innerHTML = "<b><font color='red'>"+obj+"</font></b>";
+					res = 1;
+				}catch(e){
+				}	
+			}
+		} catch(e) {
+		}
+	}
+
+	if(res==0)
+	{
+		document.getElementById("res_show").innerHTML = "<b><font color='green' size=6>clear!!!</font></b>";
+	}
+}
+</script>
+</head>
+<body onload="check();">
+
+<div >js interfce:</div>
+<div id="res_show">检测中，请等待...</div>
+<br/>
+<br/>
+
+</body>
+</html>
+
