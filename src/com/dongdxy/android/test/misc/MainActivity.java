@@ -21,6 +21,7 @@ public class MainActivity extends ListActivity {
 		entries.add(JsonFormatActivity.class);
 		entries.add(MoveTaskToBackActivity.class);
 		entries.add(WebviewJsSecurityActivity.class);
+		entries.add(StaticReferenceActivity.class);
 	}
 
 	@Override
