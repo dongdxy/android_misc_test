@@ -4,5 +4,25 @@
     <string name="app_name">dxyMisc</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="nice_html_1">
+<![CDATA[
+<h3>天猫双十一电视单品单店</h3>
+				<p>顶配49英寸4K电视，性价比之王</p>
+				<a href="http://www.mi.com/mitv" target="_blank">了解小米电视2</a>
+]]>
+    </string>
+    <string name="nice_html_2">
+<![CDATA[
+				<h2 class="feature-font-title-white">
+					<b>工艺和手感，超乎想象</b>
+				</h2>
+				<p class="feature-font-detail">
+					不锈钢金属边框，5英寸屏超窄边<br>
+					小米手机4 依然是全球顶配性能之王<br>
+				</p>
+				<div class="feature-font-price">1999元起</div>
+				可选联通、电信3G版，移动4G版
+]]>
+    </string>
 
 </resources>

@@ -14,6 +14,12 @@
         android:layout_height="wrap_content"
         android:focusableInTouchMode="true"
         android:text="btn" />
+    <Button
+        android:id="@+id/btn_small_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:text="small test" />
 
     <ScrollView
         android:layout_width="match_parent"

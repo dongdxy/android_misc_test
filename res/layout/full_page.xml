@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/bottomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mask_down"
+        android:padding="20dp"
+        android:text="【喜讯】小米电视2勇夺三项第一 \n截止13点03分，小米电视2再次勇夺三项第一：\n①大家电类平板电视销量破万台最快！\n② 大家电类平板电视总成交额破亿最快！\n③ 家电类平板电视总销量第一！"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</RelativeLayout>
